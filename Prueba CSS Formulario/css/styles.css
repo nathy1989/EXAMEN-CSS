@@ -1,0 +1,69 @@
+/*Ingresé esta propiedad para controlar el calculo del navegador a la hora de modificar las propiedades content, padding y border*/
+*{
+    box-sizing: border-box;
+}
+
+
+/*Utilicé la propiedad background-image, que establece la imagen de fondo de un elemento, con la función linear-gradient, que se encargó de realizar la transición progresiva en forma lineal de los dos colores que elegí*/
+/*Display:flex Lo utilicé para que el contenedor fuera más flexible a los elementos que hay dentro de él*/
+/*Justify-content: lo utilicé para que el navegador distribuyera el espacio entre alrededor de su principal contenedor*/
+/*Align-items: lo utilicé para la alineación del elemento deltro del bloque que lo contiene (debe tener un height definido)*/
+body{
+    background-image:linear-gradient(to right,rgb(134, 123, 229),rgb(229, 97, 144));
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 30px;
+}
+
+#container{
+    background-color:white;
+    height:450px;
+    width: 360px;
+    padding:auto;
+    border-radius: 5px;
+    margin-top:23%;
+    
+}
+
+
+.box{
+    position:relative;
+    margin:35px;
+}
+
+input{
+    background-color: none;
+    padding: 10px 5px 5px 5px;
+    display: block;
+    border:none;
+    border-bottom: 1px solid rgb(214, 205, 205);
+    width: 100%;
+}
+
+input::placeholder{
+    color:rgb(190, 190, 192);
+}
+
+label{
+    color:rgb(76, 158, 226);
+    font-size: 12px;
+    margin-left: 2%;
+}
+
+button{
+    font-family:"Roboto", sans-serif;
+    background-image:linear-gradient(to right,rgb(134, 123, 229),rgb(229, 97, 144));
+    color: white;
+    border: none;
+    width: 30%;
+    height: 35px;
+    margin-left: 35%;
+}

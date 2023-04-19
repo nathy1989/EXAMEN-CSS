@@ -1,0 +1,149 @@
+body{
+    background-color: #f1dada;
+}
+
+.bandera{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin:15px;
+    float:left;
+    border:1px solid black;
+    position:relative;
+}
+
+.chile1{
+    background-color: blue;
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.chile2{
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.japon{
+    background-color: rgb(180, 17, 17);
+    height: 55%;
+    width: 40%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.alemania1{
+    background-color: black;
+    height: 33.33%;
+}
+
+.alemania2{
+    background-color: red;
+    height: 33.33%;
+}
+
+.alemania3{
+    background-color: gold;
+    height: 33.33%;
+}
+
+.mexico1{
+    background-color: rgb(24, 112, 24);
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.mexico2{
+    background-color:rgb(196, 33, 33);
+    width: 33.33%;
+    height: 100%;
+    margin-left: 66.8%;
+   
+}
+
+.eeuuazul{
+    background-color: rgb(5, 5, 131);
+    height: 53.9%;
+    width: 45%;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.eeuu1,
+.eeuu2,
+.eeuu3,
+.eeuu4,
+.eeuu5,
+.eeuu6,
+.eeuu7{
+    background-color: rgb(172, 15, 15);
+    height: 7.7%;
+    margin-bottom: 15.4px;
+}
+
+
+.peru1{
+    background-color:red;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.peru2{
+    background-color:red;
+    width: 33.33%;
+    height: 100%;
+    margin-left: 66.6%;
+}
+
+.dinamarca{
+    background-color: rgb(158, 22, 22);
+    width: 300px;
+    height: 200px;
+    margin:15px;
+    float:left;
+    border:1px solid black;
+    position:relative; 
+}
+
+.dinamarca1{
+    background-color: white;
+    height: 200px;
+    width: 35px;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.dinamarca2{
+    background-color: white;
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    margin-top: 28%;
+}
+
+.finlandia1{
+    background-color: blue;
+    height: 200px;
+    width: 45px;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.finlandia2{
+    background-color: blue;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    margin-top: 25%;
+}
